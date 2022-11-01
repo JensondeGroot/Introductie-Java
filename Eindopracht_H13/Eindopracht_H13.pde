@@ -1,8 +1,8 @@
-color background_color = color(0, 0, 0);
-color entry_color = color(130, 96, 149);
+color background_color = color(255, 255, 64);
+color entry_color = color(13, 96, 149);
 color entry_text_color = color(10, 3, 40);
 color button_color = color(100, 108, 100);
-color button_text_color = color(255, 255, 0);
+color button_text_color = color(204, 204, 0);
 
 char pKey=' ';
 float value_1, value_2, position=0;
@@ -55,7 +55,7 @@ void reset(){
   ellipse(235, 445, 80, 80);
   ellipse(340, 445, 80, 80);
   
-  stroke(255, 255, 0);
+  stroke(204, 204, 0);
   strokeWeight(5);
   line(0, 0, 0, 0);
   
