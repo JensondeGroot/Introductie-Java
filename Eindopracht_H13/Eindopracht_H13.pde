@@ -7,7 +7,6 @@ color button_text_color = color(204, 204, 0);
 char pKey=' ';
 float value_1, value_2, position=0;
 String operation;
-
 String entery_text="Calculator";
 
 void setup(){
