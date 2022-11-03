@@ -117,7 +117,7 @@ void input(){
       }
     }
     else if(key=='2'){
-      if(position==1){
+                              if(position==1){
         position=2;
       }
       if(position==0){
@@ -126,7 +126,7 @@ void input(){
       else if(position==2){
         value_2 = (value_2*10)+2;
       }
-      else if(position==4){
+                        else if(position==4){
         value_1=2;
         position=0;
       }
